@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-     <div>
+     <div >
       <b-nav>
         <b-nav-item active><router-link to='/'>Home</router-link></b-nav-item>
         <b-nav-item><router-link to='/About'>About</router-link></b-nav-item>
@@ -9,6 +9,10 @@
       </b-nav>
   </div>
      <router-view/> 
+   
+    <Home></Home>
+    <About></About>
+     <Contact></Contact>
   </div>
 </template>
 

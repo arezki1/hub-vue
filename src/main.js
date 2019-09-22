@@ -7,6 +7,8 @@ import VueRouter from 'vue-router'
 import Contact from './components/Contact'
 import About from './components/About'
 import Home from './components/Home'
+import './assets/css/style.css'
+//import './assets/css/bootstrap.min.css'
 Vue.use(VueRouter)
 Vue.use(BootstrapVue)
 Vue.config.productionTip = false
